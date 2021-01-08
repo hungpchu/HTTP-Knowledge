@@ -1,0 +1,30 @@
+Request/ Response
+1. header
+    - Request
+        - Cookies
+        - Accept-xxx
+        - Content-Type
+        - Content-Length
+        - Authorization: token to validate user to access protected page or router
+        - User-Agent
+        - Referrer: refer site
+    - Response
+        - Server
+        - Set-Cookie: send cookies data from the server to the client
+        - Content-Type: text/HTML, text/CSS, application/JSON
+        - Content-Length: octet Type
+        - Date
+    - General
+        - Method + Path + Protocol
+        - Name and Value
+            - Request URL
+            - Request Method
+            - Status Code
+            - Remote Address
+            - Referrer Policy
+2. body
+    - Response
+        - content is
+            - HTML
+            - JSON data
+    - Request

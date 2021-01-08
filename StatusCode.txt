@@ -1,0 +1,22 @@
+1xx: informational
+    - Request received/ processing
+2xx: Success
+    - Successfully retrieved, understood and accept
+3xx: Redirect
+    - Further action must be taken/Redirect
+4xx: Client Error
+    - Request does not have what it needs
+    - For example
+        - The server needs a name field sent in a request body and if you don't send that then get this code
+5xx : Server Error
+    - Server failed to fulfill an apparent valid request
+
+Famous Status
+200 - OK
+201 - Ok created
+301 - Moved to the new URL
+304 - Not Modified (Cache version)
+400 - Bad Request
+401 - Unauthorized
+404 - Not Found
+500 - Internal server error

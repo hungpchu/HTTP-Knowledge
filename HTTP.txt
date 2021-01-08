@@ -1,0 +1,31 @@
+Link
+1. https://www.youtube.com/watch?v=iYM2zFP3Zn0&ab_channel=Academind
+
+HTTP
+1. Hyper Text Transfer Protocol
+2. responsible for the communication between web servers and client
+3. is stateless
+    - every request is completely indepedent
+    - When visit another page or reload the page, HTTP can not remember the previous request
+
+
+HTTPs
+1. Hyper Text Transfer Protocol Secured
+2. Data that is sent back and forth is encrypted by
+    - SSL
+        - Secure Socket Layer
+    - TLS
+        - Transport Secure Layer
+3. Install certificate on web host
+
+
+Method
+1. GET  
+    - Retrieve the data from the server
+2. POST
+    - Submit the data to the server
+3. PUT
+    - Update the data already on the server 
+4. DELETE
+    - Delete the data from the server
+
